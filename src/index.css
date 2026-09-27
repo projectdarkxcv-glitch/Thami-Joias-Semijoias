@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle glow and delicate accents */
+.border-rose-subtle {
+  border-color: rgba(227, 168, 181, 0.35);
+}
+
+.bg-rose-gradient {
+  background: linear-gradient(135deg, #F9E2E6 0%, #F5CED6 100%);
+}
+
+.bg-rose-luxury {
+  background: linear-gradient(135deg, #8E344B 0%, #6E2337 100%);
+}
+
+.text-rose-accent {
+  color: #A23A52;
+}
+
+.border-gold-subtle {
+  border-color: rgba(197, 160, 89, 0.3);
+}
+
+.text-gold-accent {
+  color: #B2883A;
+}
+
